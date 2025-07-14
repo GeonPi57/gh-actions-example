@@ -18,7 +18,7 @@ jobs:
 
 
       - name: 🔍 Vérifier contenu de la racine
-        run: ls -al
+        run: ls
         
       - name: Set up JDK 17
         uses: actions/setup-java@v4
